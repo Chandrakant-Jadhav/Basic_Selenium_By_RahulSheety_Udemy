@@ -24,6 +24,9 @@ public class DyanamicDropdown {
 		//div [@id="glsctl00_mainContent_ddl_destinationStation1_CTNR"] //a[@value='MAA']
 		
 		driver.findElement(By.xpath("//div [@id=\"glsctl00_mainContent_ddl_destinationStation1_CTNR\"] //a[@value='MAA']")).click();
+		
+		//selecting date
+		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight.ui-state-active")).click();
 
 	}
 

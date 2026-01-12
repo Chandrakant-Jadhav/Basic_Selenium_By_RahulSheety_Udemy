@@ -20,7 +20,7 @@ public class AutoSuggestive {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 
-        driver.findElement(By.id("autosuggest")).sendKeys("ind");
+        //driver.findElement(By.id("autosuggest")).sendKeys("ind");
 
         // wait until suggestions appear
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
