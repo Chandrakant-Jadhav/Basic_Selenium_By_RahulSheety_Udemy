@@ -19,7 +19,7 @@ public class Checkbox {
         System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
         Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
         driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
-        Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+		Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 	}
 
 }
