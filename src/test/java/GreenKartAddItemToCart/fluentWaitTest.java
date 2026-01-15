@@ -32,6 +32,7 @@ public class fluentWaitTest {
 			   }
 		   }
        });
+       System.out.println(driver.findElement(By.xpath("//div[@id=\"finish\"]/h4")).getText());
 	}
 
 }
