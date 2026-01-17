@@ -36,8 +36,9 @@ public class CalenderTest {
 			System.out.println(actualList.get(i).getAttribute("value"));
 			Assert.assertEquals(actualList.get(i).getAttribute("value"), expectedList[i]);
 		}
+		
 		driver.close();
-
+		
 	}
 
 }
