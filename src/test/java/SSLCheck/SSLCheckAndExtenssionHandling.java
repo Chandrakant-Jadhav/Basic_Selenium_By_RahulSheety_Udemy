@@ -24,7 +24,6 @@ public class SSLCheckAndExtenssionHandling {
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
 		System.out.println(driver.getTitle());;
 	
-
 	}
 
 }
